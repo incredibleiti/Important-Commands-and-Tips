@@ -1,0 +1,26 @@
+In Order to create a SVN repository on your local system, follow the following steps in exact order.
+
+Go to your desired path in system. I has chosen, C:\Users\iti.tyagi 
+1. I created a folder which will contain my svn repository for future needs (means I will use this file path to checkout on my system)
+
+- Create Folder my_repo , C:\Users\iti.tyagi\my_repo
+- Right Click within this folder path and chose Tortoise SVN > Create repository here
+
+The repository will be created with some default folders like : conf, db, hooks, locks..etc
+
+Now we have to use this repository as source for SVN checkout
+
+2. Choose relevant folder to check in (I created another folder at path C:\Users\iti.tyagi\SVN_Code
+
+Right Click > SVN Checkout > URL of Repository will be C:\Users\iti.tyagi\my_repo
+
+                            And Checkout Directory will be C:\Users\iti.tyagi\SVN_Code
+                            
+                            Checkout Depth > Fully recursive
+                            Revision> Head
+                            Click OK
+                            
+                            
+BOOM now you have SVN update and commit working...
+
+You can add files folder and commit and carry on like normal SVN connected to server.
