@@ -25,3 +25,21 @@ Add the following in the VSCode settings.json for terminal css customized.
     },
    
 }
+
+==============================================Update on 7th June 2022 ==========================================
+
+   "workbench.colorTheme": "Tomorrow Night Blue","workbench.colorCustomizations": {
+        "editor.selectionHighlightBackground": "#e86e0b",
+        "editor.findMatchBackground": "#d7c51e",
+        "terminal.selectionBackground": "#7bcc35cb",      
+            "editor.selectionBackground": "#12c9f2", //  hexadecimal code
+            "editor.selectionHighlightBack": "#34c9eb"//  hex code
+    },
+    "workbench.editor.enablePreview": false,
+    "terminal.integrated.rightClickBehavior": "default",
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": "off"
+    },
+    "workbench.iconTheme": "vscode-great-icons"
