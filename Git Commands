@@ -1,0 +1,8 @@
+===========================================================================================================================================
+=========================================Useful to delete all local branches===============================================================
+===========================================================================================================================================
+
+git branch | grep -v "trunk" | xargs git branch -D
+
+Note: Use the above command if you wish to delete all local branches except "trunk"
+Change the name from "trunk" to "master or main" based whichsoever is the origin main repo.
